@@ -24,10 +24,10 @@
 
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
- 
+
 # Torch
 PRODUCT_PACKAGES := \
-    Torch
+    OmniTorch
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -39,7 +39,7 @@ $(call inherit-product, device/sony/common/resources.mk)
 $(call inherit-product, device/sony/yuga/yuga.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_yuga
+PRODUCT_NAME := du_yuga
 PRODUCT_DEVICE := yuga
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
