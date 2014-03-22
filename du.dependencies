@@ -28,5 +28,11 @@
     "repository":   "android_hardware_sony_DASH",
     "target_path":  "hardware/sony/DASH",
     "revision":     "du44"
+  },
+  {
+    "remote": "du",
+    "repository": "vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "du44"
   }
 ]
