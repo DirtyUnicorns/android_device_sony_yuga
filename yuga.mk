@@ -61,6 +61,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/rootdir/system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/du/bootanimations/bootanimation_1080_1920.zip:system/media/bootanimation.zip
+
 # Touchpad
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
