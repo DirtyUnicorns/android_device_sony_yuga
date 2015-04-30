@@ -18,6 +18,9 @@ include device/sony/fusion3-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 -include vendor/sony/yuga/BoardConfigVendor.mk
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := yuga
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := C6602,C6603,C6606,yuga
 
