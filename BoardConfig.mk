@@ -21,6 +21,9 @@ include device/sony/fusion3-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := yuga
 
+# NFC
+TARGET_USES_OS_NFC := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := C6602,C6603,C6606,yuga
 
