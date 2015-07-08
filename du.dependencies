@@ -28,5 +28,10 @@
     "repository":   "DirtyUnicorns/android_hardware_sony_DASH",
     "target_path":  "hardware/sony/DASH",
     "branch":       "lollipop-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_vendor_sony",
+    "target_path":  "vendor/sony",
+    "branch":       "lollipop-caf"
   }
 ]
