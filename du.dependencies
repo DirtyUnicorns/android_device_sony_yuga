@@ -1,36 +1,36 @@
 [
   {
-    "repository":   "DirtyUnicorns/android_device_sony_common",
+    "repository":   "android_device_sony_common",
     "target_path":  "device/sony/common",
     "branch":       "lollipop-caf"
   },
   {
-    "repository":   "DirtyUnicorns/android_device_sony_qcom-common",
+    "repository":   "android_device_sony_qcom-common",
     "target_path":  "device/sony/qcom-common",
     "branch":       "lollipop-caf"
   },
   {
-    "repository":   "DirtyUnicorns/android_device_sony_fusion3-common",
+    "repository":   "android_device_sony_fusion3-common",
     "target_path":  "device/sony/fusion3-common",
     "branch":       "lollipop-caf"
   },
   {
-    "repository":   "DirtyUnicorns/android_device_sony_msm8960-common",
+    "repository":   "android_device_sony_msm8960-common",
     "target_path":  "device/sony/msm8960-common",
     "branch":       "lollipop-caf"
   },
   {
-    "repository":   "DirtyUnicorns/android_kernel_sony_apq8064",
+    "repository":   "android_kernel_sony_apq8064",
     "target_path":  "kernel/sony/apq8064",
     "branch":       "lollipop-caf"
   },
   {
-    "repository":   "DirtyUnicorns/android_hardware_sony_DASH",
+    "repository":   "android_hardware_sony_DASH",
     "target_path":  "hardware/sony/DASH",
     "branch":       "lollipop-caf"
   },
   {
-    "repository":   "DirtyUnicorns/android_vendor_sony",
+    "repository":   "android_vendor_sony",
     "target_path":  "vendor/sony",
     "branch":       "lollipop-caf"
   }
