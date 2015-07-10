@@ -1,10 +1,10 @@
-# Inherit Omni GSM telephony parts
+# Inherit DU GSM telephony parts
 $(call inherit-product, vendor/du/config/gsm.mk)
 
 # Bootanimation
 TARGET_BOOTANIMATION_SIZE := 960x640
 
-# Inherit Omni product configuration
+# Inherit DU product configuration
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit device configuration
